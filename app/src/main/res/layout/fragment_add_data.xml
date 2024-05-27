@@ -29,6 +29,7 @@
         android:id="@+id/tableLayout"
         android:layout_width="338dp"
         android:layout_height="429dp"
+        android:background="@drawable/button_aspect"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.442"
@@ -39,12 +40,15 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="27dp">
+            android:paddingTop="25dp"
+            android:paddingBottom="24dp">
 
             <TextView
                 android:id="@+id/text_arteriala"
                 android:layout_width="222dp"
                 android:layout_height="match_parent"
+                android:paddingStart="20sp"
+                android:paddingEnd="4sp"
                 android:text="@string/arteriala"
                 android:textSize="24sp" />
 
@@ -67,12 +71,16 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="27dp">
+            android:paddingTop="25dp"
+            android:paddingBottom="24dp">
 
-            <TextView
+
+        <TextView
                 android:id="@+id/text_temperatura"
                 android:layout_width="222dp"
                 android:layout_height="match_parent"
+                android:paddingStart="20sp"
+                android:paddingEnd="4sp"
                 android:text="@string/temperatura"
                 android:textSize="24sp" />
 
@@ -95,12 +103,16 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="27dp">
+            android:paddingTop="25dp"
+            android:paddingBottom="24dp">
 
-            <TextView
+
+        <TextView
                 android:id="@+id/text_greutate"
                 android:layout_width="222dp"
                 android:layout_height="match_parent"
+                android:paddingStart="20sp"
+                android:paddingEnd="4sp"
                 android:text="@string/greutate"
                 android:textSize="24sp" />
 
@@ -129,6 +141,8 @@
                 android:id="@+id/text_glicemie"
                 android:layout_width="222dp"
                 android:layout_height="match_parent"
+                android:paddingStart="20sp"
+                android:paddingEnd="4sp"
                 android:text="@string/glicemie"
                 android:textSize="24sp" />
 
