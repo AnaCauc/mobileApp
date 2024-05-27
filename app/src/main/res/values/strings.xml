@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vitalis</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_add">Adaugare date</string>
+    <string name="add_text">Adaugare informatii</string>
+    <string name="greutate">Greutate</string>
+    <string name="arteriala">Tensiune arteriala</string>
+    <string name="temperatura">Temperatura corporala</string>
+    <string name="glicemie">Glicemie</string>
+    <string name="exemple">0</string>
+    <string name="salvare">Salvare date</string>
+</resources>
